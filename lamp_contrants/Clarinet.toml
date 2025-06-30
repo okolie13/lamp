@@ -9,6 +9,11 @@ requirements = []
 path = 'contracts/archive_with_notification.clar'
 clarity_version = 2
 epoch = 2.5
+
+[contracts.file_sharing_rewards]
+path = 'contracts/file_sharing_rewards.clar'
+clarity_version = 2
+epoch = 2.5
 [repl.analysis]
 passes = ['check_checker']
 
